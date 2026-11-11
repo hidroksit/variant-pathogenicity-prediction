@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Yarışma verisi — TEKNOFEST tarafından sağlandı, yeniden dağıtılmaz
+train_data/
+veri/
+*.csv
+*.pkl
+*.parquet
+
+# Model çıktıları
+*.joblib
+*.txt.model
+models/
+outputs/
+
+# Belgeler
+*sartname*.pdf
+*Sartname*.pdf
+*Şartname*.pdf
+
+# OS / editör
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
